@@ -41,9 +41,4 @@ On src folder:
 **index.ts:** This file is the entry point of the application. It will mount the server.
 
 **app.ts:** This file is the main application file. It will be used to configure the express application.
-# API_Mmedical
-# API_Mmedical_cloud
-# API_Mmedical_cloud
-# API_Mmedical_cloud
-# API_Mmedical_Respaldo
 # API_Mmedical_Cloud
