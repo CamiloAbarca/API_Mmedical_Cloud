@@ -4,6 +4,8 @@ import equipoRouters from './equipoRoutes'
 import authRoutes from './authRoutes'
 import tokenValidator from '../middlewares/tokenValidator'
 
+
+
 const apiRoutes = Router()
 const cors = require('cors');
 equipoRouters.use(cors());
