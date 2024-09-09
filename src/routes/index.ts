@@ -3,11 +3,10 @@ import healthRoutes from './healthRoutes'
 import equipoRouters from './equipoRoutes'
 import authRoutes from './authRoutes'
 import tokenValidator from '../middlewares/tokenValidator'
-
+import cors from 'cors'
 
 
 const apiRoutes = Router()
-const cors = require('cors');
 equipoRouters.use(cors());
 
 apiRoutes.use('/', healthRoutes)
