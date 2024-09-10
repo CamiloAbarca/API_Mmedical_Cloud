@@ -5,9 +5,9 @@ import authRoutes from './authRoutes'
 import tokenValidator from '../middlewares/tokenValidator'
 import cors from 'cors'
 
-
-const apiRoutes = Router()
 equipoRouters.use(cors());
+const apiRoutes = Router()
+
 
 apiRoutes.use('/', healthRoutes)
 apiRoutes.use('/equipos', tokenValidator(), equipoRouters)
