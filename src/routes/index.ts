@@ -1,9 +1,10 @@
+import cors from 'cors'
 import { Router } from 'express'
 import healthRoutes from './healthRoutes'
 import equipoRouters from './equipoRoutes'
 import authRoutes from './authRoutes'
 import tokenValidator from '../middlewares/tokenValidator'
-import cors from 'cors'
+
 
 equipoRouters.use(cors());
 const apiRoutes = Router()
