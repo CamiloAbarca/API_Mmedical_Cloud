@@ -65,10 +65,6 @@ export default class EquipoController {
             res.status(500).json({ message: 'Something went wrong' })
         }
 
-        const newEquipo = await repository.create(equipo)
-
-        res.json(newEquipo)
-
     }
 
     public readonly update = async (req: Request, res: Response) => {
